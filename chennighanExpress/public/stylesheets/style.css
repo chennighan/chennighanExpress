@@ -1,0 +1,33 @@
+body {
+   padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p {
+   color: #aaa;
+}
+
+body .navbar-default .navbar-nav li a {
+   color: #333;
+   background: #f8f8f8;
+}
+body .navbar-default .navbar-nav li:hover a {
+   color: #f8f8f8;
+   background: #333;
+}
+body .navbar-default .navbar-nav>.active a {
+   color: #f8f8f8;
+   background: #333;
+}
+body .navbar-default .navbar-nav>.active:hover a {
+   color: #f8f8f8;
+   background: #333;
+}
+
+.easeOut {
+   -webkit-transition: all 0.25s ease-out;
+   -moz-transition: all 0.25s ease-out;
+   -o-transition: all 0.25s ease-out;
+   -ms-transition: all 0.25s ease-out;
+   transition: all 0.25s ease-out;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   {{> page/meta }}
+   <title>Chennighan Express Handlebars CouchDB Example Application</title>
+   {{> page/stylesheets }}
+</head>
+<body>
+   <!-- container our header will be injected into -->
+   <div class="header-container">
+      {{> page/nav }}
+   </div>
+   <!-- container our main content will be injected into -->
+   <div class="content">
+      {{{ body }}}
+   </div>
+   <!-- container footer will be injected into -->
+   <div class="footer-container">
+      {{> page/footer }}
+   </div>
+
+   <!-- dynamically house our scripts so we don't clutter our main markup, and improve load time by including last -->
+   {{> page/javascripts }}
+</body>
+</html>

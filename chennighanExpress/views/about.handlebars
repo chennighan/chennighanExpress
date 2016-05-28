@@ -1,0 +1,8 @@
+<h4>{{ user.first_name }} {{ user.last_name }}</h4>
+<h5>Title: {{ user.title }}</h5>
+<h5>Skills/Tech for this app:</h5>
+<ul class="list-group">
+  {{# each user.skills }}
+    <li class="list-group-item">{{ this }}</li>
+  {{/ each }}
+</ul>
